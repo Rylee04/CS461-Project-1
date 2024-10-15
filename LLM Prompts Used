@@ -1,0 +1,21 @@
+1. I'm trying to write a program in python that goes through a few different algorithms for route-finding given a "coordinates.csv" file with city names and their coordinates on each line and an "Adjacencies.txt" file with two city names on each line
+
+The program should compare the time taken for execution on each one. The algorithms in mind are breadth-first search, depth-first search, iterative deepening-depth first search, and A*.
+
+2. Could you modify the code so that it has a menu and asks the user for the start and end city (making sure both are in the database) and asks for which search they'd like to use?
+
+3. Could you modify the program so it also includes best-first search?
+
+4. Can you modify the code so that it prints the route the method found in order from origin to destination?
+
+5. can you also modify the code so that it calculates and displays the total distance (node to node) for the cities visited on the route selected?
+here's an example of the first three lines of "coordinates.txt":
+Abilene 38.92203 -97.2667
+Andover 37.68684 -97.1658
+Anthony 37.15752 -98.0729
+
+6. I'd like the execution time to be more exact since it's often giving me that it's completed in 0.000 seconds when I want to be able to see the trend of how long each algorithm takes to finish path finding\
+
+7. Could you comment out the program?
+
+8. iddfs is missing its max_depth
